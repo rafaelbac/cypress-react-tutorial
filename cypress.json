@@ -1,3 +1,13 @@
 {
-    "baseUrl": "http://localhost:3000"
+  "baseUrl": "https://status.vtex.com/",
+  "env": {
+    "requestTimeout": 30000,
+    "responseTimeout": 30000,
+    "isLogged": false
+  },
+  "defaultCommandTimeout": 10000,
+  "ignoreTestFiles": "*.old.js",
+  "integrationFolder": "cypress/robot",
+  "projectId": "vuuqnj",
+  "chromeWebSecurity": false
 }
